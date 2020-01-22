@@ -50,12 +50,12 @@ Once there, give your question a good title, and put some meaningful information
 
 The comments is a good place for an in-depth message. It is super helpful to include files and filelines, exception messages, debug messages, and your installation setup (if applicable).
 
-You need to leave at least three (3) issues about the code, front or back end. These questions can be anything you don't understand, or would like an explanation on. Be sure to give them the `question` label!
+You need to leave at least three (3) issues about the code, front or back end. These questions can be anything you don't understand, or would like an explanation on. Also, take a glance at the ERD below; if something doesn't make sense about it you can leave a question on that as well. ~~Be sure to give them the `question` label!~~ Don't worry about labeling the issues. This appears to be locked down to the repo owner. I will review the issues and label them appropriately.
 
 See this issue for an example: https://github.com/PercyODI/Stage2.PieAuction/issues/2 
 
-- [ ] Leave at least three (3) issues
-- [ ] Look at issues from others. Can you answer their question? if so, leave a comment!
+- [ ] Leave at least three (3) issues that get labeled `question`
+- [ ] Look at issues from others. Can you answer their question? If so, leave a comment!
 - [ ] When a question you have is answered, look at the answer and see if it makes sense. 
     - If it doesn't, add another comment asking for more information.
     - If it does, close the issue.
@@ -68,7 +68,12 @@ Our architects have tentatively decided on the following ERD for the Pie, Auctio
 
 ![Backend ERD](/Instruction.Images/ERD.jpg?raw=true)
 
-You will start to see mentors adding issues to **your** repo. These issues are feature requests and bugs that need to be implemented in your code. If something is unclear in the issue, please comment in it so that the poster can clarify.
+You will start to see mentors adding issues to **your** repo. These issues are feature requests and bugs that need to be implemented or fixed in your code. If something is unclear in the issue, please comment in it so that the poster can clarify.
+
+> #### Triage
+> It is important to be able to look through all the things you need to do and pick out the important things. Look through the issues, decide what is most important or most pressing and do that one.
+>
+> On a real repo, there may be a ton of issues for the repo. Contributors need to be able to look through the issues, complete the ones that are most important, and get to the other issues as time and resources allow!
 
 When you decide on an issue to work on, follow these steps:
 
@@ -76,7 +81,7 @@ When you decide on an issue to work on, follow these steps:
 2. Make comments if anything needs clarified or explained
 3. Implement the issue 
     - If it is a bug, fix the bug
-    - If it is a feature, add the feature
+    - If it is a enhancement, add the feature
 4. Once you have it working, commit your code using GitHub Desktop
     - In your commit summary, use the words "resolves #123", but replace "123" with the issue number
         - The issue number can be found at the end of the URL 
